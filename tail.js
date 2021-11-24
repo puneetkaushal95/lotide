@@ -6,10 +6,10 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-const head = function(array) {
+const tail = function(array) {
   return (array.slice(0));
-}
+};
 
 
-assertEqual(head([5,6,7]), 6);
-assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
+assertEqual(tail([5,6,7]), 6);
+assertEqual(tail(["Hello", "Lighthouse", "Labs"]), "Hello");
